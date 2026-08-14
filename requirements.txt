@@ -10,7 +10,7 @@ polars-runtime-32==1.43.2
     # via polars
 pydantic==2.13.4
     # via food-data-pipeline
-pydantic-core==2.46.4
+pydantic-core==2.48.0
     # via pydantic
 typing-extensions==4.16.0
     # via
