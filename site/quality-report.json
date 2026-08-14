@@ -1,0 +1,115 @@
+{
+  "pipeline_version": "1.0.0",
+  "source": "USDA FoodData Central — Foundation Foods",
+  "source_release": "2026-04-30",
+  "food_rows": 20,
+  "nutrient_rows": 181,
+  "observation_rows": 1852,
+  "checks": [
+    {
+      "name": "food rows present",
+      "status": "pass",
+      "observed": "20",
+      "expected": "> 0",
+      "severity": "error"
+    },
+    {
+      "name": "observation rows present",
+      "status": "pass",
+      "observed": "1852",
+      "expected": "> 0",
+      "severity": "error"
+    },
+    {
+      "name": "food primary key unique",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 duplicates",
+      "severity": "error"
+    },
+    {
+      "name": "observation primary key unique",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 duplicates",
+      "severity": "error"
+    },
+    {
+      "name": "required food values complete",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 nulls",
+      "severity": "error"
+    },
+    {
+      "name": "descriptions non-blank",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 blank values",
+      "severity": "error"
+    },
+    {
+      "name": "food foreign keys valid",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 orphan observations",
+      "severity": "error"
+    },
+    {
+      "name": "nutrient foreign keys valid",
+      "status": "warn",
+      "observed": "1",
+      "expected": "0 orphan nutrients",
+      "severity": "warning"
+    },
+    {
+      "name": "category foreign keys valid",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 orphan categories",
+      "severity": "error"
+    },
+    {
+      "name": "amounts non-negative",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 negative values",
+      "severity": "warning"
+    },
+    {
+      "name": "amount completeness disclosed",
+      "status": "warn",
+      "observed": "1",
+      "expected": "0 null amounts",
+      "severity": "warning"
+    },
+    {
+      "name": "nutrient units recognized",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 unsupported units",
+      "severity": "error"
+    },
+    {
+      "name": "per-100g macro ranges plausible",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 values above 100 g/100 g",
+      "severity": "error"
+    },
+    {
+      "name": "energy range plausible",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 values above 1,000 kcal/100 g",
+      "severity": "error"
+    },
+    {
+      "name": "every food has nutrient evidence",
+      "status": "pass",
+      "observed": "0",
+      "expected": "0 foods without observations",
+      "severity": "error"
+    }
+  ]
+}

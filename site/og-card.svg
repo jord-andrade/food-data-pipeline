@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f5f2e9"/>
+  <circle cx="84" cy="76" r="28" fill="#24664f"/>
+  <text x="73" y="88" fill="#f5f2e9" font-family="Georgia" font-size="34" font-style="italic">N</text>
+  <text x="126" y="86" fill="#172720" font-family="Arial" font-size="28" font-weight="700">NutriTrace</text>
+  <rect x="881" y="55" width="245" height="46" rx="23" fill="#d9eccd"/>
+  <text x="923" y="85" fill="#24664f" font-family="monospace" font-size="17" font-weight="700">USDA / CC0 1.0</text>
+  <text x="70" y="206" fill="#24664f" font-family="monospace" font-size="18" font-weight="700" letter-spacing="2">FOOD DATA ENGINEERING</text>
+  <text x="70" y="310" fill="#172720" font-family="Georgia" font-size="78">A public dataset should</text>
+  <text x="70" y="398" fill="#ed684f" font-family="Georgia" font-size="78" font-style="italic">arrive with receipts.</text>
+  <line x1="70" y1="493" x2="1130" y2="493" stroke="#172720" stroke-width="2"/>
+  <text x="70" y="548" fill="#65736b" font-family="Arial" font-size="22">Contracts · lineage · Parquet · DuckDB · quality report</text>
+  <text x="915" y="548" fill="#172720" font-family="monospace" font-size="19">jord-andrade.dev</text>
+</svg>
