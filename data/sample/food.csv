@@ -1,0 +1,21 @@
+fdc_id,data_type,description,food_category_id,publication_date
+321358,foundation_food,"Hummus, commercial",16,2019-04-01
+321360,foundation_food,"Tomatoes, grape, raw",11,2019-04-01
+323294,foundation_food,"Nuts, almonds, dry roasted, with salt added",12,2019-04-01
+323505,foundation_food,"Kale, raw",11,2019-04-01
+325036,foundation_food,"Cheese, parmesan, grated",1,2019-04-01
+325430,foundation_food,"Peaches, yellow, raw",9,2019-04-01
+327046,foundation_food,"Kiwifruit, green, raw",9,2019-04-01
+328637,foundation_food,"Cheese, cheddar",1,2019-04-01
+330137,foundation_food,"Yogurt, Greek, plain, nonfat",1,2019-04-01
+330458,foundation_food,"Oil, coconut",4,2019-04-01
+331960,foundation_food,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",5,2019-04-01
+332282,foundation_food,"Sauce, pasta, spaghetti/marinara, ready-to-serve",6,2019-04-01
+333008,foundation_food,"Cookies, oatmeal, soft, with raisins",18,2019-04-01
+333374,foundation_food,"Fish, haddock, raw",15,2019-04-01
+334194,foundation_food,"Fish, tuna, light, canned in water, drained solids",15,2019-04-01
+746764,foundation_food,"Carrots, frozen, unprepared",11,2019-12-16
+746769,foundation_food,"Lettuce, cos or romaine, raw",11,2019-12-16
+746771,foundation_food,"Oranges, raw, navels",9,2019-12-16
+746772,foundation_food,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",1,2019-12-16
+746784,foundation_food,"Sugars, granulated",19,2019-12-16

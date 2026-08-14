@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "food-data-pipeline"
+version = "1.0.0"
+description = "Reproducible USDA FoodData Central quality and analytics pipeline."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { file = "LICENSE" }
+authors = [{ name = "Jordan Andrade" }]
+dependencies = [
+  "duckdb>=1.4,<2",
+  "polars>=1.37,<2",
+  "pydantic>=2.12,<3",
+]
+
+[project.scripts]
+food-pipeline = "food_pipeline.cli:main"
+
+[dependency-groups]
+dev = [
+  "mypy>=1.19,<2",
+  "pip-audit>=2.10,<3",
+  "pytest>=9,<10",
+  "ruff>=0.15,<1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/food_pipeline"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["site"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF", "S"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/food_pipeline/report.py" = ["E501", "S608"]
+"tests/**/*.py" = ["S101"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["food_pipeline"]
+mypy_path = "src"
+
+[[tool.mypy.overrides]]
+module = ["duckdb.*", "polars.*"]
+ignore_missing_imports = true

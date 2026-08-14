@@ -1,0 +1,182 @@
+id,name,unit_name,nutrient_nbr,rank
+1002,Nitrogen,G,202,500.0
+1003,Protein,G,203,600.0
+1004,Total lipid (fat),G,204,800.0
+1005,"Carbohydrate, by difference",G,205,1110.0
+1007,Ash,G,207,1000.0
+1008,Energy,KCAL,208,300.0
+1009,Starch,G,209,2200.0
+1010,Sucrose,G,210,1600.0
+1011,Glucose,G,211,1700.0
+1012,Fructose,G,212,1800.0
+1013,Lactose,G,213,1900.0
+1014,Maltose,G,214,2000.0
+1050,"Carbohydrate, by summation",G,205.2,1120.0
+1051,Water,G,255,100.0
+1062,Energy,kJ,268,400.0
+1063,"Sugars, Total",G,269.3,1500.0
+1075,Galactose,G,287,2100.0
+1079,"Fiber, total dietary",G,291,1200.0
+1082,"Fiber, soluble",G,295,1240.0
+1084,"Fiber, insoluble",G,297,1260.0
+1085,Total fat (NLEA),G,298,900.0
+1087,"Calcium, Ca",MG,301,5300.0
+1089,"Iron, Fe",MG,303,5400.0
+1090,"Magnesium, Mg",MG,304,5500.0
+1091,"Phosphorus, P",MG,305,5600.0
+1092,"Potassium, K",MG,306,5700.0
+1093,"Sodium, Na",MG,307,5800.0
+1095,"Zinc, Zn",MG,309,5900.0
+1098,"Copper, Cu",MG,312,6000.0
+1100,"Iodine, I",UG,314,6150.0
+1101,"Manganese, Mn",MG,315,6100.0
+1103,"Selenium, Se",UG,317,6200.0
+1105,Retinol,UG,319,7430.0
+1106,"Vitamin A, RAE",UG,320,7420.0
+1107,"Carotene, beta",UG,321,7440.0
+1108,"Carotene, alpha",UG,322,7450.0
+1109,Vitamin E (alpha-tocopherol),MG,323,7905.0
+1110,"Vitamin D (D2 + D3), International Units",IU,324,8650.0
+1111,Vitamin D2 (ergocalciferol),UG,325,8710.0
+1112,Vitamin D3 (cholecalciferol),UG,326,8720.0
+1113,25-hydroxycholecalciferol,UG,327,8730.0
+1114,Vitamin D (D2 + D3),UG,328,8700.0
+1116,Phytoene,UG,330,7570.0
+1117,Phytofluene,UG,331,7580.0
+1119,Zeaxanthin,UG,338.2,7564.0
+1120,"Cryptoxanthin, beta",UG,334,7460.0
+1121,Lutein,UG,338.1,7562.0
+1122,Lycopene,UG,337,7530.0
+1123,Lutein + zeaxanthin,UG,338,7560.0
+1125,"Tocopherol, beta",MG,341,8000.0
+1126,"Tocopherol, gamma",MG,342,8100.0
+1127,"Tocopherol, delta",MG,343,8200.0
+1128,"Tocotrienol, alpha",MG,344,8300.0
+1129,"Tocotrienol, beta",MG,345,8400.0
+1130,"Tocotrienol, gamma",MG,346,8500.0
+1131,"Tocotrienol, delta",MG,347,8600.0
+1159,cis-beta-Carotene,UG,321.1,7442.0
+1160,cis-Lycopene,UG,337.1,7532.0
+1161,cis-Lutein/Zeaxanthin,UG,338.3,7561.0
+1162,"Vitamin C, total ascorbic acid",MG,401,6300.0
+1165,Thiamin,MG,404,6400.0
+1166,Riboflavin,MG,405,6500.0
+1167,Niacin,MG,406,6600.0
+1170,Pantothenic acid,MG,410,6700.0
+1175,Vitamin B-6,MG,415,6800.0
+1177,"Folate, total",UG,417,6900.0
+1178,Vitamin B-12,UG,418,7300.0
+1180,"Choline, total",MG,421,7220.0
+1183,Vitamin K (Menaquinone-4),UG,428,8950.0
+1184,Vitamin K (Dihydrophylloquinone),UG,429,8900.0
+1185,Vitamin K (phylloquinone),UG,430,8800.0
+1188,5-methyl tetrahydrofolate (5-MTHF),UG,433,8975
+1191,10-Formyl folic acid (10HCOFA),UG,436,999999.0
+1192,5-Formyltetrahydrofolic acid (5-HCOH4,UG,437,999999.0
+1194,"Choline, free",MG,450,7230.0
+1195,"Choline, from phosphocholine",MG,451,7240.0
+1196,"Choline, from phosphotidyl choline",MG,452,7250.0
+1197,"Choline, from glycerophosphocholine",MG,453,7260.0
+1198,Betaine,MG,454,7290.0
+1199,"Choline, from sphingomyelin",MG,455,7270.0
+1210,Tryptophan,G,501,16300.0
+1211,Threonine,G,502,16400.0
+1212,Isoleucine,G,503,16500.0
+1213,Leucine,G,504,16600.0
+1214,Lysine,G,505,16700.0
+1215,Methionine,G,506,16800.0
+1216,Cystine,G,507,16900.0
+1217,Phenylalanine,G,508,17000.0
+1218,Tyrosine,G,509,17100.0
+1219,Valine,G,510,17200.0
+1220,Arginine,G,511,17300.0
+1221,Histidine,G,512,17400.0
+1222,Alanine,G,513,17500.0
+1223,Aspartic acid,G,514,17600.0
+1224,Glutamic acid,G,515,17700.0
+1225,Glycine,G,516,17800.0
+1226,Proline,G,517,17900.0
+1227,Serine,G,518,18000.0
+1228,Hydroxyproline,G,521,18100.0
+1232,Cysteine,G,526,18150.0
+1253,Cholesterol,MG,601,15700.0
+1257,"Fatty acids, total trans",G,605,15400.0
+1258,"Fatty acids, total saturated",G,606,9700.0
+1259,SFA 4:0,G,607,9800.0
+1260,SFA 6:0,G,608,9900.0
+1261,SFA 8:0,G,609,10000.0
+1262,SFA 10:0,G,610,10100.0
+1263,SFA 12:0,G,611,10300.0
+1264,SFA 14:0,G,612,10500.0
+1265,SFA 16:0,G,613,10700.0
+1266,SFA 18:0,G,614,10900.0
+1267,SFA 20:0,G,615,11100.0
+1268,MUFA 18:1,G,617,12100.0
+1269,PUFA 18:2,G,618,13100.0
+1270,PUFA 18:3,G,619,13900.0
+1271,PUFA 20:4,G,620,14700.0
+1272,PUFA 22:6 n-3 (DHA),G,621,15300.0
+1273,SFA 22:0,G,624,11200.0
+1276,PUFA 18:4,G,627,14250.0
+1277,MUFA 20:1,G,628,12400.0
+1278,PUFA 20:5 n-3 (EPA),G,629,15000.0
+1279,MUFA 22:1,G,630,12500.0
+1280,PUFA 22:5 n-3 (DPA),G,631,15200.0
+1281,TFA 14:1 t,G,821,15510.0
+1292,"Fatty acids, total monounsaturated",G,645,11400.0
+1293,"Fatty acids, total polyunsaturated",G,646,12900.0
+1299,SFA 15:0,G,652,10600.0
+1300,SFA 17:0,G,653,10800.0
+1301,SFA 24:0,G,654,11300.0
+1303,TFA 16:1 t,G,662,15520.0
+1304,TFA 18:1 t,G,663,15521.0
+1305,TFA 22:1 t,G,664,15550.0
+1306,TFA 18:2 t not further defined,G,665,15610.0
+1311,PUFA 18:2 CLAs,G,670,13300.0
+1312,MUFA 24:1 c,G,671,12800.0
+1313,"PUFA 20:2 n-6 c,c",G,672,14300.0
+1314,MUFA 16:1 c,G,673,11800.0
+1315,MUFA 18:1 c,G,674,12200.0
+1316,"PUFA 18:2 n-6 c,c",G,675,13200.0
+1317,MUFA 22:1 c,G,676,12600.0
+1321,"PUFA 18:3 n-6 c,c,c",G,685,14100.0
+1323,MUFA 17:1,G,687,12000.0
+1329,"Fatty acids, total trans-monoenoic",G,693,15500.0
+1330,"Fatty acids, total trans-dienoic",G,694,15601.0
+1331,"Fatty acids, total trans-polyenoic",G,695,15619.0
+1333,MUFA 15:1,G,697,11600.0
+1334,PUFA 22:2,G,698,15100.0
+1335,SFA 11:0,G,699,10200.0
+1404,"PUFA 18:3 n-3 c,c,c (ALA)",G,851,14000.0
+1405,PUFA 20:3 n-3,G,852,14500.0
+1406,PUFA 20:3 n-6,G,853,14600.0
+1409,PUFA 18:3i,G,856,14200.0
+1411,PUFA 22:4,G,858,15160.0
+1414,PUFA 20:3 n-9,G,861,14650.0
+2003,SFA 5:0,G,632,9850.0
+2004,SFA 7:0,G,633,9950.0
+2005,SFA 9:0,G,634,10050.0
+2006,SFA 21:0,G,681,11150.0
+2007,SFA 23:0,G,682,11250.0
+2008,MUFA 12:1,G,635,11450.0
+2009,MUFA 14:1 c,G,822,11501.0
+2010,MUFA 17:1 c,G,825,12001.0
+2012,MUFA 20:1 c,G,829,12401.0
+2013,TFA 20:1 t,G,830,15540.0
+2014,MUFA 22:1 n-9,G,676.1,12601.0
+2015,MUFA 22:1 n-11,G,676.2,12602.0
+2016,PUFA 18:2 c,G,831,13150.0
+2018,PUFA 18:3 c,G,833,13910.0
+2019,TFA 18:3 t,G,834,15660.0
+2020,PUFA 20:3 c,G,835,14450.0
+2021,PUFA 22:3,G,683,14675.0
+2022,PUFA 20:4c,G,836,14750.0
+2023,PUFA 20:5c,G,837,14950.0
+2024,PUFA 22:5 c,G,838,15150.0
+2025,PUFA 22:6 c,G,839,15250.0
+2026,PUFA 20:2 c,G,840,14250.0
+2028,trans-beta-Carotene,UG,321.2,7444.0
+2029,trans-Lycopene,UG,337.2,7534.0
+2032,"Cryptoxanthin, alpha",UG,335,7461.0
+2047,Energy (Atwater General Factors),KCAL,957,280.0
+2048,Energy (Atwater Specific Factors),KCAL,958,290.0
