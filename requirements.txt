@@ -2,13 +2,13 @@
 #    uv export --frozen --no-dev --no-hashes --no-emit-project --output-file requirements.txt
 annotated-types==0.8.0
     # via pydantic
-duckdb==1.5.5
+duckdb==1.5.6
     # via food-data-pipeline
-polars==1.43.2
+polars==1.44.2
     # via food-data-pipeline
-polars-runtime-32==1.43.2
+polars-runtime-32==1.44.2
     # via polars
-pydantic==2.13.4
+pydantic==2.14.1
     # via food-data-pipeline
 pydantic-core==2.46.4
     # via pydantic
